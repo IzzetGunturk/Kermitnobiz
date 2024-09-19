@@ -10,9 +10,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#5A8D3E",
+        secondary: "#2D2D2C",
+        background: "#FAFAFA",
+        white: "#FFF",
       },
+      fontFamily: {
+        dynapuff: ['DynaPuff', 'sans-serif'],
+        outfit: ['Outfit', 'sans-serif'],
+      }
     },
   },
   plugins: [],

@@ -15,9 +15,8 @@ export default function Document() {
         {/* metatags */}
         <meta name="title" content="$KERMITNOBIZ" />
         <meta name="description" content="🐸 Welcome to $KERMITNOBIZ, the memecoin inspired by the iconic Kermit" />
-
-        <title>$KERMITNOBIZ</title>
       </Head>
+      <title>$KERMITNOBIZ</title>
       <body>
         <Main />
         <NextScript />
