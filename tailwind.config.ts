@@ -18,7 +18,10 @@ const config: Config = {
       fontFamily: {
         dynapuff: ['DynaPuff', 'sans-serif'],
         outfit: ['Outfit', 'sans-serif'],
-      }
+      },
+      screens: {
+        'sm300': '370px',
+      },
     },
   },
   plugins: [],
