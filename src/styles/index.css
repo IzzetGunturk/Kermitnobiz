@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+
+/* ----------------- font DynaPuff ----------------- */
+
+@font-face {
+    font-family: 'DynaPuff';
+    src: url('../pages/fonts/DynaPuff/DynaPuff-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DynaPuff';
+    src: url('../pages/fonts/DynaPuff/DynaPuff-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DynaPuff';
+    src: url('../pages/fonts/DynaPuff/DynaPuff-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DynaPuff';
+    src: url('../pages/fonts/DynaPuff/DynaPuff-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ----------------- font Anton ----------------- */
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../pages/fonts/Outfit/Outfit-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../pages/fonts/Outfit/Outfit-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../pages/fonts/Outfit/Outfit-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../pages/fonts/Outfit/Outfit-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    scroll-behavior: smooth;
+}
