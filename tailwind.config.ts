@@ -29,7 +29,7 @@ const config: Config = {
         },
       },
       animation: {
-        'slide-left-infinite': 'slide-left 15s linear infinite',
+        'slide-left-infinite': 'slide-left 20s linear infinite',
       },
     },
   },
