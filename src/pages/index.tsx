@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '@/layout/header';
 import Hero from '@/components/hero';
 import Slider from '@/components/slider';
+import About from '@/components/about';
 
 function index() {
   return (
@@ -9,6 +10,7 @@ function index() {
     <Header />
     <Hero />
     <Slider />
+    <About />
     </>
   )
 }
