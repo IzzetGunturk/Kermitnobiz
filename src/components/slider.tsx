@@ -3,69 +3,78 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
+import Kermit from '../../public/Kermit.png';
 
-const LogoSlider = () => {
+const logosArray = [
+  { id: 1, text: '$KERMITNOBIZ', imageSrc: Kermit.src },
+  { id: 2, text: '$KERMITNOBIZ', imageSrc: Kermit.src },
+  { id: 3, text: '$KERMITNOBIZ', imageSrc: Kermit.src },
+  { id: 4, text: '$KERMITNOBIZ', imageSrc: Kermit.src },
+  { id: 5, text: '$KERMITNOBIZ', imageSrc: Kermit.src },
+  { id: 6, text: '$KERMITNOBIZ', imageSrc: Kermit.src }
+];
+
+const Slider = () => {
   return (
-    <section className="border-2 border-primary py-10">
+    <section className="border-2 border-primary p-2">
       <Swiper
-        spaceBetween={50}
-        slidesPerView={5}
+        spaceBetween={60}
+        slidesPerView={1}
         loop={true}
         autoplay={{
-          delay: 0, // Zorg ervoor dat het continu afspeelt zonder pauze
-          disableOnInteraction: false, // Blijf autoplay na interactie
+          delay: 0,
+          disableOnInteraction: false,
         }}
-        speed={5000} // De snelheid van de overgang
+        speed={3000}
         modules={[Autoplay]}
-        className="mySwiper"
+        breakpoints={{
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 250,
+          },
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 100,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 60,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 100,
+          },
+          1300: {
+            slidesPerView: 4,
+            spaceBetween: 100,
+          },
+          1500: {
+            slidesPerView: 5,
+            spaceBetween: 100,
+          },
+          1920: {
+            slidesPerView: 6,
+            spaceBetween: 100,
+          }
+        }}
       >
-        {/* Voeg je logo's hier toe */}
-        <SwiperSlide>
-          <img
-            className="h-16 mx-auto"
-            src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-            alt="Transistor"
-          />
+        {logosArray.map((logoslider) => (
+        <SwiperSlide key={logoslider.id}>
+          <div className='flex flex-row gap-3 justify-center items-center' >
+            <div className='font-dynapuff font-medium text-3xl text-primary'>
+              {logoslider.text}
+            </div>
+            <img src={logoslider.imageSrc} height={50} width={50} alt='Kermiticon'></img>
+          </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="h-16 mx-auto"
-            src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
-            alt="Reform"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="h-16 mx-auto"
-            src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
-            alt="Tuple"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="h-16 mx-auto"
-            src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg"
-            alt="SavvyCal"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="h-16 mx-auto"
-            src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg"
-            alt="Statamic"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="h-16 mx-auto"
-            src="https://tailwindui.com/img/logos/158x48/laravel-logo-white.svg"
-            alt="Laravel"
-          />
-        </SwiperSlide>
-        {/* Herhaal zoveel als je logo's hebt */}
+        ))}
       </Swiper>
     </section>
   );
 };
 
-export default LogoSlider;
+export default Slider;

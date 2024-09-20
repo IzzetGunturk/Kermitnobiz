@@ -7,7 +7,7 @@ const Hero = () => {
 return (
 <section className="relative w-full min-h-screen flex items-center justify-center pt-36">
     <div className="absolute inset-0">
-        <Image src={Heroimg} alt='Hero Image' layout='fill' objectFit='cover' className='w-full h-full' />
+        <Image src={Heroimg} alt='Hero Image' className='w-full h-full object-cover' />
     </div>
     <div className='sm300:mx-10 mx-2 md:mx-20'>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-32">
