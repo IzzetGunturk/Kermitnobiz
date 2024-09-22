@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Kermitcrypto1 from '../../public/Kermitcrypto.png';
+import Kermitcrypto from '../../public/Kermitcryptomonitor.png';
 import Aboutpng from '../../public/About.png';
 
 const About = () => {
@@ -12,7 +12,7 @@ return (
   <div className="sm300:mx-10 mx-2 md:mx-20">
     <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-16">
       <div className="relative md:pt-10 lg:order-last lg:h-full">
-        <Image src={Kermitcrypto1} alt="Kermitcrypto" className='rounded-xl' width={450} height={450} />
+        <Image src={Kermitcrypto} alt="Kermitcrypto" className='rounded-xl' width={450} height={450} />
       </div>
 
       <div className="pb-10 relative lg:pt-8 text-secondary lg:order-first">
