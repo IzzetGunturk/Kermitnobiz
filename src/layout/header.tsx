@@ -72,9 +72,9 @@ return (
                 className="font-dynapuff block text-white hover:bg-white hover:text-primary transition duration-200 px-3 py-2 rounded-md text-base font-semibold">
                     About
             </a>
-            <a href="#projects"
+            <a href="#howtobuy"
                 className="font-dynapuff block text-white hover:bg-white hover:text-primary transition duration-200 px-3 py-2 rounded-md text-base font-semibold">
-                    Projects
+                    How to buy
             </a>
             <div className='flex flex-row gap-3 px-3 pt-3'>
                 <a href="" className="border-white border-2 hover:bg-white rounded-full transition duration-200">

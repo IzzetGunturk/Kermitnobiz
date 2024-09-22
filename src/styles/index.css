@@ -74,4 +74,5 @@
 
 * {
     scroll-behavior: smooth;
+    scroll-margin: 100px;
 }
