@@ -6,12 +6,12 @@ import { Autoplay } from 'swiper/modules';
 import Kermit from '../../public/Kermit.png';
 
 const logosArray = [
-  { id: 1, text: '$KERMITNOBIZ', imageSrc: Kermit.src },
-  { id: 2, text: '$KERMITNOBIZ', imageSrc: Kermit.src },
-  { id: 3, text: '$KERMITNOBIZ', imageSrc: Kermit.src },
-  { id: 4, text: '$KERMITNOBIZ', imageSrc: Kermit.src },
-  { id: 5, text: '$KERMITNOBIZ', imageSrc: Kermit.src },
-  { id: 6, text: '$KERMITNOBIZ', imageSrc: Kermit.src }
+  { text: '$KERMITNOBIZ', imageSrc: Kermit.src },
+  { text: '$KERMITNOBIZ', imageSrc: Kermit.src },
+  { text: '$KERMITNOBIZ', imageSrc: Kermit.src },
+  { text: '$KERMITNOBIZ', imageSrc: Kermit.src },
+  { text: '$KERMITNOBIZ', imageSrc: Kermit.src },
+  { text: '$KERMITNOBIZ', imageSrc: Kermit.src }
 ];
 
 const Slider = () => {
@@ -62,8 +62,8 @@ const Slider = () => {
           }
         }}
       >
-        {logosArray.map((logoslider) => (
-        <SwiperSlide key={logoslider.id}>
+        {logosArray.map((logoslider, index) => (
+        <SwiperSlide key={index}>
           <div className='flex flex-row gap-3 justify-center items-center' >
             <div className='font-dynapuff font-medium text-3xl text-primary'>
               {logoslider.text}

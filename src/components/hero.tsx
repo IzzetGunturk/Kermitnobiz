@@ -25,7 +25,7 @@ return (
                 <h2 className='font-outfit font-semibold text-lg text-secondary'>
                     Welcome to $KERMITNOBIZ, the memecoin inspired by the iconic Kermit "But that’s none of my business" meme. Stay cool, sip your tea, and ride the crypto waves—because who’s got time for the drama?
                 </h2>
-                <div className='lg:flex flex-col md:flex-row gap-2'>
+                <div className='lg:flex flex-col md:flex-row gap-2 justify-center items-center'>
                     <input className='bg-white border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl px-2 py-1 font-outfit font-medium text-primary w-full' readOnly value='Ca: 4xK3Rm1tNoBiz9PQr56T8vG72LkFJz91Xy7WmH'></input>
                     <button className='lg:mt-0 mt-2 flex flex-row gap-2 bg-white border-primary fill-primary hover:bg-primary hover:text-white hover:fill-white transition duration-200 border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl px-2 py-1 font-outfit font-medium text-primary'>
                         Copy
