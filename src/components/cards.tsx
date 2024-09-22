@@ -4,7 +4,7 @@ import Cardspng from '../../public/Cards.png';
 
 const Cards = () => {
 return (
-<section className="relative w-full min-h-screen pt-16">
+<section className="relative w-full min-h-screen pt-16 pb-16">
     <div className="absolute inset-0">
         <Image src={Cardspng} alt='Cards' className='w-full h-full object-cover' />
     </div>
@@ -29,40 +29,40 @@ return (
             </button>
         </div>
         <div className="mt-20 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 mx-auto relative">
-            <div className="flex">
+            <div className="md:flex">
                 <div className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
                     <h2 className="text-xl text-primary font-dynapuff font-medium">1. Download</h2>
 
                     <p className="mt-1 text-sm text-secondary font-outfit font-medium">
-                    Download a Solana based wallet that you enjoy, we recommend Phantom or Solflare
+                        Download a Solana based wallet that you enjoy, we recommend <a className='underline font-semibold hover:text-primary transition duration-200' href='https://phantom.app/'>Phantom</a> or <a className='underline font-semibold hover:text-primary transition duration 200' href='https://solflare.com/'>Solflare</a>.
                     </p>
                 </div>
             </div>
 
-            <div className="flex">
+            <div className="md:flex">
                 <div className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
                     <h2 className="text-xl text-primary font-dynapuff font-medium">2. Wallet</h2>
 
                     <p className="mt-1 text-sm text-secondary font-outfit font-medium">
-                        Send Solana to your newly created wallet. You can use any centralized exchange for this (Binance, Bitvavo, etc)
+                        Send Solana to your newly created wallet. You can use any centralized exchange for this ( <a className='underline font-semibold hover:text-primary transition duration-200' href='https://bitvavo.com/nl/'>Bitvavo</a>, <a className='underline font-semibold hover:text-primary transition duration-200' href='https://www.binance.com/en'>Binance</a>, etc).
                     </p>
                 </div>
             </div>
 
-            <div className="flex">
+            <div className="md:flex">
                 <div className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
                     <h2 className="text-xl text-primary font-dynapuff font-medium">3. Connect</h2>
 
                     <p className="mt-1 text-sm text-secondary font-outfit font-medium">
-                        Head on over to pump.fun. You will be asked to connect your wallet, use your newly created wallet for this
+                        Head on over to pump.fun. You will be asked to connect your wallet, use your newly created wallet for this.
                     </p>
                 </div>
             </div>
 
-            <div className="flex">
+            <div className="md:flex">
                 <div className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
                     <h2 className="text-xl text-primary font-dynapuff font-medium">4. Buy</h2>

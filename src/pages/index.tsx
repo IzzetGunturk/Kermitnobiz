@@ -4,6 +4,7 @@ import Hero from '@/components/hero';
 import Slider from '@/components/slider';
 import About from '@/components/about';
 import Cards from '@/components/cards';
+import Footer from '@/layout/footer';
 
 function index() {
   return (
@@ -13,6 +14,7 @@ function index() {
     <Slider />
     <About />
     <Cards />
+    <Footer />
     </>
   )
 }
