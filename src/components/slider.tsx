@@ -5,7 +5,7 @@ import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 import Kermit from '../../public/Kermit.png';
 
-const logosArray = [
+const logosArray: {text: string, imageSrc: string}[] = [
   { text: '$KERMITNOBIZ', imageSrc: Kermit.src },
   { text: '$KERMITNOBIZ', imageSrc: Kermit.src },
   { text: '$KERMITNOBIZ', imageSrc: Kermit.src },

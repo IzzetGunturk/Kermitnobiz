@@ -4,10 +4,10 @@ import Cardspng from '../../public/Cards.png';
 
 const Cards = () => {
 
-const [checkButton, setCheckButton] = useState(false);
-const copyText = useRef<HTMLInputElement>(null)
+    const [checkButton, setCheckButton] = useState<boolean>(false);
+    const copyText = useRef<HTMLInputElement>(null)
 
-    const handleCheckButton = () => {
+    const handleCheckButton = (): void => {
         setCheckButton(true);
         setTimeout(() => {
             setCheckButton(false)

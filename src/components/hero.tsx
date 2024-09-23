@@ -5,10 +5,10 @@ import Kermit from '../../public/Kermit.png';
 
 const Hero = () => {
 
-    const [checkButton, setCheckButton] = useState(false);
+    const [checkButton, setCheckButton] = useState<boolean>(false);
     const copyText = useRef<HTMLInputElement>(null)
 
-    const handleCheckButton = () => {
+    const handleCheckButton = (): void => {
         setCheckButton(true);
         setTimeout(() => {
             setCheckButton(false)

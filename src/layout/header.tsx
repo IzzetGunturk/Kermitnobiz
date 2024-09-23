@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 const Header = () => {
-    const [isNavOpen, setIsNavOpen] = useState(false);
+    const [isNavOpen, setIsNavOpen] = useState<boolean>(false);
 
-    const toggleNav = () => {
+    const toggleNav = (): void => {
         setIsNavOpen(!isNavOpen);
     };
 
