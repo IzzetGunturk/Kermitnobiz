@@ -10,7 +10,7 @@ return (
         Follow us
     </div>
     <div className='font-dynapuff text-bold text-2xl text-[#ffffffa2] flex'>
-        Join the $KERMITNOBIT community
+        Join the $KERMITNOBIZ community
     </div>
     <div className="flex items-center gap-10">
         <div className="flex flex-row gap-3">
