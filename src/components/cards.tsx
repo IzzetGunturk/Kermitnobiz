@@ -19,7 +19,7 @@ const Cards = () => {
     }
 
     return (
-    <section className="relative w-full min-h-screen pt-16 pb-16" id='howtobuy'>
+    <section className="relative w-full h-full pt-24 pb-24" id='howtobuy'>
         <div className="absolute inset-0">
             <Image src={Cardspng} alt='Cards' className='w-full h-full object-cover' />
         </div>
@@ -33,7 +33,7 @@ const Cards = () => {
             <div className='flex flex-col md:flex-row gap-2 justify-center items-center relative pt-16 md:mx-20'>
                 <input ref={copyText}
                     className='bg-white w-full border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl px-2 py-1 font-outfit font-medium text-primary'
-                    readOnly value='4xK3Rm1tNoBiz9PQr56T8vG72LkFJz91Xy7WmH'>
+                    readOnly value='Coming soon...'>
                 </input>
 
                 {checkButton ? (
@@ -60,9 +60,9 @@ const Cards = () => {
                     <div
                         className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
-                        <h2 className="text-xl text-primary font-dynapuff font-medium">1. Download</h2>
+                        <h2 className="text-xl 3xl:text-2xl text-primary font-dynapuff font-medium">1. Download</h2>
 
-                        <p className="mt-1 text-sm text-secondary font-outfit font-medium">
+                        <p className="mt-1 text-sm 3xl:text-base text-secondary font-outfit font-medium">
                             Download a Solana based wallet that you enjoy, we recommend <a
                                 className='underline font-semibold hover:text-primary transition duration-200'
                                 href='https://phantom.app/'>Phantom</a> or <a
@@ -76,9 +76,9 @@ const Cards = () => {
                     <div
                         className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
-                        <h2 className="text-xl text-primary font-dynapuff font-medium">2. Wallet</h2>
+                        <h2 className="text-xl 3xl:text-2xl text-primary font-dynapuff font-medium">2. Wallet</h2>
 
-                        <p className="mt-1 text-sm text-secondary font-outfit font-medium">
+                        <p className="mt-1 text-sm 3xl:text-base text-secondary font-outfit font-medium">
                             Send Solana to your newly created wallet. You can use any centralized exchange for this ( <a
                                 className='underline font-semibold hover:text-primary transition duration-200'
                                 href='https://bitvavo.com/nl/'>Bitvavo</a>, <a
@@ -92,9 +92,9 @@ const Cards = () => {
                     <div
                         className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
-                        <h2 className="text-xl text-primary font-dynapuff font-medium">3. Connect</h2>
+                        <h2 className="text-xl 3xl:text-2xl text-primary font-dynapuff font-medium">3. Connect</h2>
 
-                        <p className="mt-1 text-sm text-secondary font-outfit font-medium">
+                        <p className="mt-1 text-sm 3xl:text-base text-secondary font-outfit font-medium">
                             Head on over to pump.fun. You will be asked to connect your wallet, use your newly created
                             wallet for this.
                         </p>
@@ -105,9 +105,9 @@ const Cards = () => {
                     <div
                         className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
-                        <h2 className="text-xl text-primary font-dynapuff font-medium">4. Buy</h2>
+                        <h2 className="text-xl 3xl:text-2xl text-primary font-dynapuff font-medium">4. Buy</h2>
 
-                        <p className="mt-1 text-sm text-secondary font-outfit font-medium">
+                        <p className="mt-1 text-sm 3xl:text-base text-secondary font-outfit font-medium">
                             Now you simply exchange your Solana for $KERMITNOBIZ tokens - Join our Telegram if you need
                             any assistence or want to talk to us!
                         </p>

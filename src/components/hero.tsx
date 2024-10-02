@@ -46,7 +46,7 @@ return (
                 <div className='lg:flex flex-col md:flex-row gap-2 justify-center items-center'>
                     <input ref={copyText}
                         className='bg-white border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl px-2 py-1 font-outfit font-medium text-primary w-full'
-                        readOnly value='4xK3Rm1tNoBiz9PQr56T8vG72LkFJz91Xy7WmH'>
+                        readOnly value='Coming soon...'>
                     </input>
 
                     {checkButton ? (

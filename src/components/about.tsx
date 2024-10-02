@@ -5,7 +5,7 @@ import Aboutpng from '../../public/About.png';
 
 const About = () => {
 return (
-<section className="relative w-full min-h-screen flex items-center justify-center pt-16 lg:pt-0" id='about'>
+<section className="relative w-full h-full flex items-center justify-center pt-16" id='about'>
   <div className="absolute inset-0">
     <Image src={Aboutpng} alt='About' className='w-full h-full object-cover' />
   </div>
@@ -18,7 +18,7 @@ return (
       <div className="pb-10 relative lg:pt-8 text-secondary lg:order-first">
         <h2 className="font-dynapuff font-medium sm:text-7xl md:text-[45px] lg:text-[80px] text-4xl text-primary">About
         </h2>
-        <h3 className="font-outfit font-semibold text-sm mt-4 text-secondary">
+        <h3 className="font-outfit font-semibold text-sm 3xl:text-base mt-4 text-secondary">
           Welcome to $KermitNoBiz, the memecoin that's all about keeping it chill while sipping tea and watching the
           world go by! Inspired by the iconic Kermit “But That’s None of My Business” meme, our coin embodies the art of
           staying cool and unbothered, no matter what the crypto market throws your way.
