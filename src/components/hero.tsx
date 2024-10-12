@@ -1,12 +1,25 @@
-import React, { useState, useRef} from 'react';
+import React, { useState, useRef, useEffect} from 'react';
 import Image from 'next/image';
 import Heroimg from '../../public/Hero.png';
 import Kermit from '../../public/Kermit.png';
+import { gsap } from 'gsap';
 
 const Hero = () => {
 
     const [checkButton, setCheckButton] = useState<boolean>(false);
     const copyText = useRef<HTMLInputElement>(null)
+    const textRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        if (textRef.current) {
+            const elements = textRef.current.children;
+            gsap.fromTo(
+                elements,
+                { y: 50, opacity: 0 },
+                { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: 'power3.out' }
+            );
+        }
+    }, []);
 
     const handleCheckButton = (): void => {
         setCheckButton(true);
@@ -31,7 +44,7 @@ return (
                 <Image src={Kermit} width={550} height={600} alt="Kermit" />
             </div>
 
-            <div className="order-first relative flex flex-col gap-[24px] lg:pt-16">
+            <div className="order-first relative flex flex-col gap-[24px] lg:pt-16" ref={textRef}>
                 <div className='font-dynapuff font-medium text-xl md:text-2xl text-secondary'>
                     But that’s none of my business...
                 </div>
@@ -71,7 +84,7 @@ return (
                 </div>
                 <div className="flex flex-row gap-3">
                     <a href=""
-                        className="bg-primary hover:bg-white hover:border-primary border-2 border-primary rounded-full transition duration-200">
+                        className="animate-wave bg-primary hover:bg-white hover:border-primary border-2 border-primary rounded-full transition duration-200">
                         <svg className='fill-white hover:fill-primary' height="36" viewBox="0 0 32 32" width="36"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -79,7 +92,7 @@ return (
                         </svg>
                     </a>
                     <a href=""
-                        className="bg-primary hover:bg-white hover:border-primary border-2 border-primary rounded-full transition duration-200">
+                        className="animate-wave bg-primary hover:bg-white hover:border-primary border-2 border-primary rounded-full transition duration-200">
                         <svg className='fill-white hover:fill-primary' width="36" height="36" viewBox="0 0 167 154"
                             fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path

@@ -24,6 +24,7 @@ const Slider = () => {
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
+          pauseOnMouseEnter: false,
         }}
         speed={3000}
         modules={[Autoplay]}

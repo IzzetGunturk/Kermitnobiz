@@ -36,7 +36,7 @@ return (
                 <div className="flex items-center gap-10">
                     <div className="md:flex hidden flex-row gap-3">
                         <a href=""
-                            className="border-white border-2 hover:bg-white rounded-full transition duration-200">
+                            className="animate-wave border-white border-2 hover:bg-white rounded-full transition duration-200">
                             <svg className='fill-white hover:fill-primary' height="32" viewBox="0 0 32 32" width="32"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -44,7 +44,7 @@ return (
                             </svg>
                         </a>
                         <a href=""
-                            className="border-white border-2 hover:bg-white rounded-full transition duration-200">
+                            className="animate-wave border-white border-2 hover:bg-white rounded-full transition duration-200">
                             <svg className='fill-white hover:fill-primary' width="32" height="32" viewBox="0 0 167 154"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path

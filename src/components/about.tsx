@@ -11,11 +11,11 @@ return (
   </div>
   <div className="sm300:mx-10 mx-2 md:mx-20">
     <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-16">
-      <div className="relative md:pt-10 lg:order-last lg:h-full">
+      <div className="relative md:pt-10 lg:order-last lg:h-full" data-aos="fade-up">
         <Image src={Kermitcrypto} alt="Kermitcrypto" className='rounded-xl' width={450} height={450} />
       </div>
 
-      <div className="pb-10 relative lg:pt-8 text-secondary lg:order-first">
+      <div className="pb-10 relative lg:pt-8 text-secondary lg:order-first" data-aos="fade-up">
         <h2 className="font-dynapuff font-medium sm:text-7xl md:text-[45px] lg:text-[80px] text-4xl text-primary">About
         </h2>
         <h3 className="font-outfit font-semibold text-sm 3xl:text-base mt-4 text-secondary">

@@ -24,13 +24,13 @@ const Cards = () => {
             <Image src={Cardspng} alt='Cards' className='w-full h-full object-cover' />
         </div>
         <div className="sm300:mx-10 mx-2 md:mx-20">
-            <div className="relative flex flex-col justify-center items-center">
+            <div className="relative flex flex-col justify-center items-center" data-aos="fade-up">
                 <h2
                     className="font-dynapuff font-medium sm:text-7xl md:text-[45px] lg:text-[80px] text-4xl text-primary">
                     How to buy
                 </h2>
             </div>
-            <div className='flex flex-col md:flex-row gap-2 justify-center items-center relative pt-16 md:mx-20'>
+            <div className='flex flex-col md:flex-row gap-2 justify-center items-center relative pt-16 md:mx-20' data-aos="fade-up">
                 <input ref={copyText}
                     className='bg-white w-full border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl px-2 py-1 font-outfit font-medium text-primary'
                     readOnly value='Coming soon...'>
@@ -56,7 +56,7 @@ const Cards = () => {
                 )}
             </div>
             <div className="mt-20 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 mx-auto relative">
-                <div className="md:flex">
+                <div className="md:flex" data-aos="flip-left">
                     <div
                         className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
@@ -72,7 +72,7 @@ const Cards = () => {
                     </div>
                 </div>
 
-                <div className="md:flex">
+                <div className="md:flex" data-aos="flip-right">
                     <div
                         className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
@@ -88,7 +88,7 @@ const Cards = () => {
                     </div>
                 </div>
 
-                <div className="md:flex">
+                <div className="md:flex" data-aos="flip-left">
                     <div
                         className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
@@ -101,7 +101,7 @@ const Cards = () => {
                     </div>
                 </div>
 
-                <div className="md:flex">
+                <div className="md:flex" data-aos="flip-right">
                     <div
                         className="bg-[#ffffffc0] border-primary border-t-2 border-l-2 border-r-2 border-b-[3px] rounded-xl p-6">
 
@@ -116,7 +116,7 @@ const Cards = () => {
             </div>
         </div>
     </section>
-    );
-    };
+);
+};
 
-    export default Cards;
+export default Cards;
