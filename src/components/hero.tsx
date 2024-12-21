@@ -34,14 +34,14 @@ const Hero = () => {
 
 
 return (
-<section className="relative w-full min-h-screen flex items-center justify-center pt-36" id='hero'>
+<section className="relative w-full min-h-screen flex items-center justify-center pt-36 xl:pl-[64px] xl:pr-[64px] lg:pl-[48px] lg:pr-[48px] max980:pl-[32px] max980:pr-[32px] max480:pl-[16px] max480:pr-[16px]" id='hero'>
     <div className="absolute inset-0">
         <Image src={Heroimg} alt='Hero Image' className='w-full h-full object-cover' />
     </div>
     <div className='sm300:mx-10 mx-2 md:mx-20'>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-32">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-32 items-center">
             <div className="relative md:pt-10 order-last lg:h-full">
-                <Image src={Kermit} width={550} height={600} alt="Kermit" />
+                <Image src={Kermit} width={1000} height={600} alt="Kermit" />
             </div>
 
             <div className="order-first relative flex flex-col gap-[24px] lg:pt-16" ref={textRef}>

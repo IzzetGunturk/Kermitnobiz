@@ -19,7 +19,7 @@ const Cards = () => {
     }
 
     return (
-    <section className="relative w-full h-full pt-24 pb-24" id='howtobuy'>
+    <section className="relative w-full h-full pt-24 pb-24 xl:pl-[64px] xl:pr-[64px] lg:pl-[48px] lg:pr-[48px] max980:pl-[32px] max980:pr-[32px] max480:pl-[16px] max480:pr-[16px]" id='howtobuy'>
         <div className="absolute inset-0">
             <Image src={Cardspng} alt='Cards' className='w-full h-full object-cover' />
         </div>

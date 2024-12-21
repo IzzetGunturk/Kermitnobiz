@@ -22,6 +22,8 @@ const config: Config = {
       screens: {
         'sm300': '370px',
         '3xl': '1920px',
+        'max980': { max: "980px" }, 
+        'max480': { max: "480px" }, 
       },
       keyframes: {
         'slide-left': {

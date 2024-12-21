@@ -5,7 +5,7 @@ import Aboutpng from '../../public/About.png';
 
 const About = () => {
 return (
-<section className="relative w-full h-full flex items-center justify-center pt-16" id='about'>
+<section className="relative w-full h-full flex items-center justify-center pt-16 xl:pl-[64px] xl:pr-[64px] lg:pl-[48px] lg:pr-[48px] max980:pl-[32px] max980:pr-[32px] max480:pl-[16px] max480:pr-[16px]" id='about'>
   <div className="absolute inset-0">
     <Image src={Aboutpng} alt='About' className='w-full h-full object-cover' />
   </div>
