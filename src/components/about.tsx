@@ -9,10 +9,10 @@ return (
   <div className="absolute inset-0">
     <Image src={Aboutpng} alt='About' className='w-full h-full object-cover' />
   </div>
-  <div className="sm300:mx-10 mx-2 md:mx-20">
-    <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-16">
+  <div className="sm300:mx-10 mx-2 md:mx-20 max-w-[1800px]">
+    <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-16 items-center">
       <div className="relative md:pt-10 lg:order-last lg:h-full" data-aos="fade-up">
-        <Image src={Kermitcrypto} alt="Kermitcrypto" className='rounded-xl' width={450} height={450} />
+        <Image src={Kermitcrypto} alt="Kermitcrypto" className='rounded-xl' width={800} height={450} />
       </div>
 
       <div className="pb-10 relative lg:pt-8 text-secondary lg:order-first" data-aos="fade-up">
