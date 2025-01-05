@@ -9,7 +9,7 @@ const Header = () => {
 
 return (
 <header className="fixed top-10 w-full z-50 flex items-center justify-center xl:pl-[64px] xl:pr-[64px] lg:pl-[48px] lg:pr-[48px] max980:pl-[32px] max980:pr-[32px] max480:pl-[16px] max480:pr-[16px]">
-    <div className="bg-primary w-full rounded-[20px] sm300:mx-10 mx-0 md:mx-20 p-2">
+    <div className="bg-primary w-full rounded-[20px] sm300:mx-10 mx-0 md:mx-20 p-2 max-w-[1800px]">
         <div className="flex items-center justify-between px-4">
             <div className="flex items-center">
                 <a href='#hero'>
