@@ -38,7 +38,7 @@ return (
     <div className="absolute inset-0">
         <Image src={Heroimg} alt='Hero Image' className='w-full h-full object-cover' />
     </div>
-    <div className='sm300:mx-10 mx-2 md:mx-20'>
+    <div className='sm300:mx-10 mx-2 md:mx-20 max-w-[1800px]'>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-32 items-center">
             <div className="relative md:pt-10 order-last lg:h-full">
                 <Image src={Kermit} width={1000} height={600} alt="Kermit" />
