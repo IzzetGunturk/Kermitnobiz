@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Giphy2 from '../../public/giphy2.gif';
+import Giphy2 from '../../public/images/giphy2.gif';
 
 const Secret = () => {
 
