@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
-import Kermit from '../../public/Kermit.png';
+import Kermit from '../../public/images/Kermit.png';
 
 const logosArray: {text: string, imageSrc: string}[] = [
   { text: '$KERMITNOBIZ', imageSrc: Kermit.src },

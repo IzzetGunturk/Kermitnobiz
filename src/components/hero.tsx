@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect} from 'react';
 import Image from 'next/image';
-import Heroimg from '../../public/Hero.png';
-import Kermit from '../../public/Kermit.png';
+import Heroimg from '../../public/images/Hero.png';
+import Kermit from '../../public/images/Kermit.png';
 import { gsap } from 'gsap';
 
 const Hero = () => {

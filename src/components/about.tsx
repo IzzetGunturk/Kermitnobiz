@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import Kermitcrypto from '../../public/Kermitcryptomonitor.png';
-import Aboutpng from '../../public/About.png';
+import Kermitcrypto from '../../public/images/Kermitcryptomonitor.png';
+import Aboutpng from '../../public/images/About.png';
 
 const About = () => {
 return (

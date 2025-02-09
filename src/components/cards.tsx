@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react';
 import Image from 'next/image';
-import Cardspng from '../../public/Cards.png';
+import Cardspng from '../../public/images/Cards.png';
 
 const Cards = () => {
 
