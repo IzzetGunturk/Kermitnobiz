@@ -13,6 +13,7 @@ export default function Document() {
         <meta name="theme-color" content="#ffffff" />
 
         {/* metatags */}
+        <meta name="robots" content="noindex, nofollow" />
         <meta name="title" content="$KERMITNOBIZ" />
         <meta name="description" content="🐸 Welcome to $KERMITNOBIZ, the memecoin inspired by the iconic Kermit" />
       </Head>
