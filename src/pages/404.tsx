@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Giphy from '../../public/giphy.webp';
+import Giphy from '../../public/images/giphy.webp';
 
 const Errorpage = () => {
 
