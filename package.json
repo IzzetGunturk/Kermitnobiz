@@ -11,7 +11,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "gsap": "^3.12.5",
-    "next": "^15.2.4",
+    "next": "^15.4.10",
     "react": "^18",
     "react-dom": "^18",
     "swiper": "^11.1.14"
